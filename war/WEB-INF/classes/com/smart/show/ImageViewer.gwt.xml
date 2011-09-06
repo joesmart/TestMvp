@@ -1,0 +1,10 @@
+<module>
+	<inherits name="com.google.gwt.user.User"/>
+	<inherits name="com.google.gwt.user.theme.standard.Standard"/>
+	<inherits name="com.google.gwt.place.Place"/>
+	<inherits name="com.google.gwt.activity.Activity"/>
+	<entry-point class="com.smart.show.client.ImageViewer"/>
+	<replace-with class="com.smart.show.client.ClientFactoryImpl">
+		<when-type-is class="com.smart.show.client.ClientFactory"/>
+	</replace-with>
+</module>
